@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Sfotypie</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <header>
+        <div class="judul">
+        <h1>Create Playlist</h1>
+        </div>
+    </header>
+    <div id="inp">
+        <!-- <div class="judul">
+        <h1>Create Playlist</h1>
+        </div> -->
+        <div class="frm">
+            <form action="">
+                <label for="">Title</label><br>
+                <input type="text" name="Title" id="judul"><br>
+                <label for="">Description</label><br>
+                <input type="text" name="Description" id="deskripsi"><br>
+                <button id="btn" onclick="addPlaylist()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div id="playlistCard">
+        <div class="card">
+            <div class="card1">
+                <img src="/src/images.png" alt="playlist1">
+                <h2>Playlist 1</h2>
+                <p>Artist</p>
+                <p>Albums</p>
+                <button disabled="disabled">Add Song</button>
+            </div>
+            <div class="card1">
+                <img src="/src/images.png" alt="playlist1">
+                <h2>Playlist 2</h2>
+                <p>Artist</p>
+                <p>Albums</p>
+                <button disabled="disabled">Add Song</button>
+            </div>
+            <div class="card1">
+                <img src="/src/images.png" alt="playlist1">
+                <h2>Playlist 3</h2>
+                <p>Artist</p>
+                <p>Albums</p>
+                <button id="btn2" disabled="disabled">Add Song</button><br>
+
+                <div class="card-list">
+                    <div class="card">
+                        <div class="container-playlist">
+                            <img src="" alt="" id="images">
+                            <h3 id="title"><b></b></h3>
+                            <p id="artist"></p>
+                            <p id="album"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/index.js"></script>
+</body>
+</html>
